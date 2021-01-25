@@ -1,0 +1,86 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Admission Form</title>
+   <link rel="stylesheet" media="all" type="text/css" href="css/style.css">
+</head>
+<body>
+<section class="form-section">
+        
+
+<center>
+    <a href="online.html"><img src="picture/logo.png" height="100" width="100" align="left"></a>
+<font size="100" color="green">Mamun Smrity Public High School</font>
+        
+        <h1>Admission Form</h1>
+        <hr>
+            <table border="1">
+                <tr>
+                    <th><a href="online.html" style="text-decoration: none; color: green">Students Information</a></th>
+                    <th><a href="gurdian.html"  style="text-decoration: none; color: green"> Gurdian Information </a></th>
+                    <th><a href="address.html"  style="text-decoration: none; color: green"> Address & other Information </a></th>
+                </tr>
+            </table>
+        </center>
+       
+        
+    <form action="gurdian.php" method="post" enctype="multipart/form-data" name="gurdian">
+        
+
+        
+        
+       
+
+        <u><h3>Gurdian Information </h3></u>
+        <table>
+            
+            <tr>
+                <td>Father's Name:  </td>
+                <td><input type="text" name="fname" placeholder="Father's Name" required></td>
+
+                
+            </tr>
+
+
+            <tr>
+                <td> Father's NID:  </td>
+                <td> <input type="number" name="fnid" required></td>
+            </tr>
+
+
+            <tr>
+                <td> Phone No:  </td>
+                <td> <input type="number" name="fphone" required></td>
+            </tr>
+            <tr>
+                <td>
+                   Mother's Name: 
+                </td>
+                <td>
+                    <input type="text" name="mname" placeholder="Mother's Name: " required>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td> Mother's NID:  </td>
+                <td> <input type="number" name="mnid" required></td>
+            </tr>
+
+
+            <tr>
+                <td>Phone No:  </td>
+                <td> <input type="number" name="mphone" required></td>
+            </tr>
+        </table>
+        <br>
+    <button type="submit" name="fbtn">
+        <h2> Submit </h2>
+    </button>
+        <script type="text/javascript">alert("সকল তথ্য ইংরেজীতে পুরন করতে হবে ")</script>
+    </form>
+</center>
+    
+    </section>
+</body>
+</html>

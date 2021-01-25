@@ -1,0 +1,278 @@
+ <html>
+<head>
+    <meta charset="utf-8">
+    <title>Admission Form</title>
+   <link rel="stylesheet" media="all" type="text/css" href="css/style.css">
+</head>
+<body>
+<section class="form-section">
+        
+
+<center>
+    <img src="picture/logo.png" height="100" width="100" align="left">
+<font size="100" color="green">Mamun Smrity Public High School</font>
+        
+        <h1>Admission Form</h1>
+        <hr>
+        
+    <form action="save.php" method="post" enctype="multipart/form-data" name="online">
+        <u><h3>Students Information</h3></u>
+
+        
+        
+        <table>
+                <tr>
+                    <td><b>Date:</b> </td>
+        
+               <td> <input type="date" name="adate"></td>
+                </tr>
+                <tr>
+                    <td><b>Class:</b> </td>    
+                </td>
+                <td>
+                    <select name="class" style="font-size: 20px; required">
+                        <option value="one">One </option>
+                        <option value="two">Two  </option>
+                        <option value="three">Three  </option>
+                        <option value="four">Four  </option>
+                        <option value="five">Five  </option>
+                        <option value="six">Six </option>
+                        <option value="seven">Seven </option>
+                        <option value="eight">Eight  </option>
+                        <option value="nine">Nine </option>
+                        <option value="ten">Ten  </option>
+                    </select>
+                </td>
+                </tr>
+                <tr>
+                    <td>Section: </td>
+                    <td>
+                      <input type="radio" name="group" value="arts">Arts
+                    
+                        <input type="radio" name="group"  value="science"> Science
+                    
+                        <input type="radio" name="group"  value="comerce"> Business Study  
+                   </td>
+                </tr>
+                <tr>
+                    <td>Shift: </td>
+                    <td>
+                        <input type="radio" name="shift" value="day"> Day
+                    
+                        <input type="radio" name="shift"  value="morning"> Morning 
+                    
+                    </td>
+                </tr>
+
+            <tr>
+                <td>
+                   Student Name: 
+                </td>
+                <td>
+                    <input type="text" name="sname" placeholder="Self Name" required>
+                </td>
+
+                
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender:  </label>
+                </td>
+                <td>
+                      <input type="radio" name="sgender" value="male"> Male
+                    
+                        <input type="radio" name="sgender"  value="female"> Female
+                   </td>
+            </tr>
+            <tr>
+                <td>
+                   Age:
+                </td>
+                <td>
+                    <input type="number" name="sage"  required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Birth Date:
+                </td>
+                <td>
+                    <input type="date" name="dob" >
+                </td>
+            </tr>
+            <tr>
+                <td> NID/Birth Certificate:  </td>
+                <td> <input type="number" name="snid" required></td>
+            </tr>
+            <tr>
+                <td> Phone No:   </td>
+                <td> <input type="number" name="sphone" required></td>
+            </tr>
+            <tr>
+                <td> Email:  </td>
+                <td> <input type="number" name="smail" ></td>
+            </tr>
+
+
+            <tr>
+                <td>
+                    Photo:
+                </td>
+                <td>
+                    <input type="file" name="picture">
+                </td>
+            </tr>
+        </table>
+
+        <u><h3>Gurdian Information </h3></u>
+        <table>
+            <tr>
+                <td>Father's Name:  </td>
+                <td><input type="text" name="fname" placeholder="পিতার  নাম" required></td>
+
+                
+            </tr>
+
+
+            <tr>
+                <td> Father's NID: </td>
+                <td> <input type="number" name="fnid" required></td>
+            </tr>
+
+
+            <tr>
+                <td> Phone No: </td>
+                <td> <input type="number" name="fphone" required></td>
+            </tr>
+            <tr>
+                <td>
+                   Mother's Name: 
+                </td>
+                <td>
+                    <input type="text" name="mname" placeholder="মাতার  নাম বাংলায় " required>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td> Mother's NID:  </td>
+                <td> <input type="number" name="mnid" required></td>
+            </tr>
+
+
+            <tr>
+                <td> Phone No:  </td>
+                <td> <input type="number" name="mphone" required></td>
+            </tr>
+        </table>
+
+             <td><u><h3>Address:</h3></u></td>
+        <table>
+            <td><b>Present Address:</b></td>
+            <tr>
+                <td>House NO:<input type="text" name="rhouse"></td>
+                <td>Road No:<input type="text" name="road"> </td>
+                
+            </tr>
+            <tr>
+                <td>Village:  <input type="text" name="rvillage" required> </td>
+                <td>P.O <input type="text" name="post" required> </td>
+            </tr>
+            <tr>
+                
+                <td>P.S:<input type="text" name="rthana" required> </td>
+                <td>Dist: <input type="text" name="dist" required> </td>
+            
+            </tr>
+            <tr>
+                <td>Postal Code:  <input type="number" name="rpcode" required></td>
+            </tr>
+        </table>
+
+        <table>
+          Permanent Address:</b></td>
+            <tr>
+                <td>House NO:<input type="text" name="rhouse"></td>
+                <td>Road No:<input type="text" name="road"> </td>
+                
+            </tr>
+            <tr>
+                <td>Village:  <input type="text" name="rvillage" required> </td>
+                <td>P.O <input type="text" name="post" required> </td>
+            </tr>
+            <tr>
+                
+                <td>P.S:<input type="text" name="rthana" required> </td>
+                <td>Dist: <input type="text" name="dist" required> </td>
+            
+            </tr>
+            <tr>
+                <td>Postal Code:  <input type="number" name="rpcode" required></td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b><h3>Country:</h3></b>
+                </td>
+                <td>
+                    <select name="country" style="font-size: 20px">
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="usa">USA</option>
+                        <option value="spain">SPAIN</option>
+                        <option value="germany">Germany  </option>
+                        <option value="Vutan">Vutan</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <td><u><h3>Academic Information:</h3></u></td>
+        <table>
+            <tr>
+                <td>Institute Name:    <input type="text" name="ainst"></td>
+                <td>Address:  <textarea name="instaddress"></textarea></td>
+            </tr>
+            <tr>
+                <td>GPA/Roll: <input type="number" name="agpa"></td>
+                <td>Year:<input type="number" name="ayear"></td>
+            </tr>
+            <tr>
+                <td>Board:<input type="text" name="binst"></td>
+                <td>Address:<textarea name="instaddress"></textarea></td>
+            </tr>
+            
+        </table>
+<td><u><h3>Others Information:</h3></u></td>
+        <table>
+            
+            <tr>
+                <td>
+                   About Yourself:
+                </td>
+                <td>
+                    <textarea name="yourself"  cols="50" rows="20" maxlength="500"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Terms & Policy:
+                </td>
+                <td>
+                    
+                        <input type="checkbox" name="terms_privacy" > I accept all the Terms & Policy
+                    </label>
+                </td>
+            </tr>
+        </table>   
+        <br>
+    <button type="submit" name="fbtn">
+        <h2> Submit </h2>
+    </button>
+        
+    </form>
+</center>
+    
+    </section>
+</body>
+</html>

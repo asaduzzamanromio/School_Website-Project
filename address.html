@@ -1,0 +1,143 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Admission Form </title>
+   <link rel="stylesheet" media="all" type="text/css" href="css/style.css">
+</head>
+<body>
+<section class="form-section">
+        
+
+<center>
+    <a href="online.html"><img src="picture/logo.png" height="100" width="100" align="left"></a>
+<font size="100" color="green">Mamun Smrity Public High School</font>
+        
+        <h1>Admission Form </h1>
+        <hr>
+       
+            <table border="1">
+                <tr>
+                    <th><a href="online.html" style="text-decoration: none; color: green">Student Information</a></th>
+                    <th><a href="gurdian.html" style="text-decoration: none; color: green">Gurdian Information </a></th>
+                    <th><a href="address.html" style="text-decoration: none; color: green">Address & others information </a></th>
+                </tr>
+            </table>
+       
+
+<form action="address.php" method="post" enctype="multipart/form-data" name="address">
+             <td><u><h3>Address </h3></u></td>
+       <table>
+           
+            <td><b>Present Address </b></td>
+            <tr>
+                <td>House no:</td>
+                <td><input type="text" name="rno"></td>
+                
+                
+            </tr>
+            <tr>
+                <td>Road NO:     </td>
+                <td><input type="text" name="rroad"></td>
+            </tr>
+            <tr>
+                <td>Village:</td>
+                <td><input type="text" name="rvillage" required> </td>
+                
+            </tr>
+            <tr>
+                <td>Post Office:</td>
+                <td> <input type="text" name="rpost" required> </td></td>
+            </tr>
+            <tr>
+                
+                <td>Police Station:</td>
+                <td><input type="text" name="rthana" required></td>
+               
+            
+            </tr>
+            <tr>
+                <td>Dist:</td>
+                <td><input type="text" name="rdist" required></td>
+            </tr>
+            <tr>
+                <td>Post code:  </td>
+                <td><input type="text" name="rpcode" required></td>
+            </tr>
+        
+
+        
+            <td><b>Permanent address: </b></td>
+            <tr>
+                <td>House no:   </td>
+                <td><input type="number" name="sno"></td>
+                
+                
+            </tr>
+            <tr>
+                <td>Road no:</td>
+                <td> <input type="text" name="sroad"> </td>
+            </tr>
+            <tr>
+                <td>village </td>
+                <td><input type="text" name="svillage" required></td>
+                
+            </tr>
+            <tr>
+               <td>Post office</td>
+               <td> <input type="text" name="spost" required> </td>
+            </tr>
+            <tr>
+                
+                <td>Police station:  </td>
+                <td> <input type="text" name="sthana" required> </td>
+               
+            
+            </tr>
+            <tr>
+               <td>Dist</td>
+               <td> <input type="text" name="sdist" required> </td>
+            </tr>
+            <tr>
+                <td>Post Code:  </td>
+                <td> <input type="number" name="spcode" required></td>
+            </tr>
+
+
+         
+                <td>
+                    <b><h3>Country</h3></b>
+                </td>
+                <td>
+                   
+                   <select name="country" style="font-size: 20px">
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="india">India </option>
+                        <option value="pakistan">Nepal </option>
+                        <option value="nepal">Vutan  </option>
+                        <option value="vutan">UK</option>
+                    </select> 
+
+                </td>
+            </tr> 
+              <td><u><h3>Others Information:</h3></u></td>
+            <tr>
+                <br> <br>
+                <td>
+                   About Yourself:
+                </td>
+                <td>
+                    <textarea name="yourself"  cols="50" rows="20" maxlength="500"></textarea>
+                </td>
+            </tr>
+       </table>  
+        <br>
+    <button type="submit" name="fbtn">
+        <h2> Submit </h2>
+    </button>
+        
+    </form>
+</center>
+ </section>   
+
+</body>
+</html>
